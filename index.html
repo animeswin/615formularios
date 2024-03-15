@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Aula</title>
+    <link rel="stylesheet" href="./aula.css">
+</head>
+<body>
+    <form>
+        <label for="usuario">Usuário</label>
+        <input type="text" id="usuario" name="usuario">
+        <br>
+        <label for="age">Idade</label>
+        <input type="number" id="age" name="idade">
+        <br>
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email"
+        placeholder="Digite seu email" required>
+        <br>
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha"
+        placeholder="************">
+        <br>
+        <label for="data_nasc">Data de Nascimento</label>
+        <input type="date" id="data_nasc" name="data_nasc">
+        <br>
+        <label for="horario_chegada">Horário de Chegada</label>
+        <input type="time" id="horario_chegada" name="horario_chegada">
+        <br>
+        <label for="cor">Escolha Uma Cor</label>
+        <input type="color" id="cor" name="cor">
+        <br>
+        <label for="arquivo">Escolha Um Arquivo</label>
+        <input type="file" id="arquivo" name="arquivo">
+        <br>
+        <label for="barrinha">Mova a Barra</label>
+        <input type="range" id="barrinha" name="barrinha">
+        <br>
+        <label>Sexo</label>
+        <br>
+        <input type="radio" id="masculino" name="sexo" value="masculino">
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="feminino" name="sexo" value="feminino">
+        <label for="feminino">Feminino</label>
+        <input type="radio" id="outros" name="sexo" value="outros">
+        <label for="outros">Outros</label>
+        <br>
+        <label for="">Linguagens</label>
+        <br>
+        <input type="checkbox" id="py" name="linguagens" value="Python">
+        <label for="py">Python</label>
+        <br>
+        <input type="checkbox" id="html" name="linguagens" value="HTML">
+        <label for="html">HTML</label>
+        <br>
+        <input type="checkbox" id="css" name="linguagens" value="CSS">
+        <label for="css">CSS</label>
+        <br>
+        <input type="checkbox" id="js" name="linguagens" value="Javascript">
+        <label for="js">Javascript</label>
+        <br>
+        <label for="country">País</label>
+        <select name="country" id="country">
+            <option value="brazil">Brasil</option>
+            <option value="eua">EUA</option>
+            <option value="mexico">México</option>
+            <option value="spain">Espanha</option>
+        </select>
+        <br>
+        <label for="comentario">Comentários</label>
+        <textarea name="comentario" id="comentario" cols="19" rows="4"></textarea>
+
+
+        <button>Enviar</button>
+        <br>
+        <input type="reset">
+    </form>
+</body>
+</html>
